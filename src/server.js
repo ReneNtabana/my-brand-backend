@@ -55,7 +55,7 @@ try {
     console.log(err)
 }
 
-app.use('', allRoutes);
+app.use('/api', allRoutes);
 //listening to your server instance
 // const startServer = () => app.listen(port)
 
